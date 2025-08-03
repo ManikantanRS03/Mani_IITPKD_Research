@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\usepackage{amsmath} % For better math formatting
+
+\title{Table}
+\author{Manikantan R. S.}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Sample IITPKD vs IISc comparison}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+Parameter & Symbol & DEV IITPKD & DEV IISc & Units \\
+\hline
+Thickness & $t_F$ & $255$ & $255$ & $nm$ \\
+Area & $A_F$ & $10^5$ & $10^5$ & $\mu m^2$ \\
+Coercive Voltage & $V_c$ & $1.7$ & $2.1$ & $V$ \\
+Remanent Polarization & $P_r$ & $0.161$ & $0.17$ & $C/m^2$ \\
+Landau Coefficient & $\alpha$ & $-5.38 \times 10^7$ & $-6.29 \times 10^7$ & $mF^{-1}$ \\
+Landau Coefficient & $\beta$ & $1.04 \times 10^9$ & $1.09 \times 10^9$ & $m^5F^{-1}C^{-1}$ \\
+Resistivity & $\rho$ & $390$ & $1367$ & $\Omega \cdot m$ \\
+\hline
+\end{tabular}
+\caption{Material Parameters}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+Parameter & Symbol & DEV IITPKD & DEV IISc & Units \\
+\hline
+Signal Voltage & $V_{sub}$ & $1$ & $1.575$ & $V$ \\
+Signal Frequency & $f_{sig}$ & $100$ & $100$ & $Hz$ \\
+No. of Cycles & $n$ & $33$ & $75$ & -- \\
+Standard Deviation & $sd$ & $[0, 1.9]$ step $0.1$ & $[0, 5.1]$ step $0.15$ & $V$ \\
+Sampling Frequency & $f_s$ & $10^5$ & $10^4$ & $Hz$ \\
+Bandwidth & $bw$ & $10^5$ & $10^4$ & $Hz$ \\
+Ensemble & $ens$ & $10$ & $1$ & -- \\
+\hline
+\end{tabular}
+\caption{Experimental Parameters}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+Parameter & Symbol & DEV IITPKD & DEV IISc & Units \\
+\hline
+Signal Voltage & $V_{sub}$ & $1$ & $1.575$ & $V$ \\
+Signal Frequency & $f_{sig}$ & $100$ & $100$ & $Hz$ \\
+No. of Cycles & $n$ & $100$ & $100$ & -- \\
+Standard Deviation & $sd$ & $[0, 3]$ step $0.06$ & $[0, 4]$ step $0.085$ & $V$ \\
+Time Step & $dt$ & $100$ & $100$ & $ns$ \\
+Bandwidth & $bw$ & $10^5$ & $10^4$ & $Hz$ \\
+Ensemble & $ens$ & $10$ & $10$ & -- \\
+\hline
+\end{tabular}
+\caption{Simulation Parameters}
+\end{table}
+
+\end{document}

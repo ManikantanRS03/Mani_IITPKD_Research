@@ -1,0 +1,48 @@
+# remarks - IITPKD sample simulation(for higher standard deviation, 10 ens)
+# simulation id
+id = 7
+
+# sample parameters (all in SI unit)
+# coercive voltage
+Vc = 1.7
+
+#remenet polarization
+Pr = 0.161
+
+alpha = -5.38e7
+beta = 1.04e9
+rho = 390
+
+#thickness of sample
+tf = 255e-9
+
+#Area of sample
+Af = 1e-7
+
+# Temperature
+T = 300
+
+#simulation parameters
+#sub threshold sine wave A (in volatge)
+A = (1,)
+
+#f
+f = (100,)
+
+#noise (sd range)
+sd = [0, 3, 50]
+
+#sampling period
+ts = 100e-9
+
+#number of cycles
+n = 100
+
+#no ensembles
+ens = 10
+
+#downsampling factor
+dsf = 100
+
+#bandwidth
+bw = 10e4

@@ -1,0 +1,31 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Drive\FE_SR\schmitt_trigger\CMOS_Schmitt_trigger\cmos_sch_trig.asc
+Start Time: Fri May 23 12:38:49 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 6.60068e-05 ++++++++++++++++++++++to 6.60078e-05
+Heightened Def Con from 0.000566006 ++++++++++++to 0.000566007
+Heightened Def Con from 0.00106601 ++++++++++++++to 0.00106601
+Heightened Def Con from 0.00156601 ++++++++++++to 0.00156601
+Heightened Def Con from 0.00206601 ++++++++++++++to 0.00206601
+Heightened Def Con from 0.00256601 ++++++++++++to 0.00256601
+Heightened Def Con from 0.00306601 ++++++++++++++to 0.00306601
+Heightened Def Con from 0.00356601 ++++++++++++to 0.00356601
+Heightened Def Con from 0.00406601 +++++++++++++++to 0.00406601
+Heightened Def Con from 0.00456601 ++++++++++++++++++++++to 0.00456601
+Heightened Def Con from 0.00506601 ++++++++++++++++++++++to 0.00506601
+Heightened Def Con from 0.00556601 +++++++++++++++to 0.00556601
+Heightened Def Con from 0.00606601 ++++++++++++++to 0.00606601
+Heightened Def Con from 0.00656601 +to 0.00656601
+Heightened Def Con from 0.00706601 ++++++++++++++++to 0.00706601
+Heightened Def Con from 0.00756601 ++++++++++++to 0.00756601
+Heightened Def Con from 0.00806601 ++++++++++++++++++++++to 0.00806601
+Heightened Def Con from 0.00856601 ++++++++++++++++++++++to 0.00856601
+Heightened Def Con from 0.00906601 ++++++++++++++to 0.00906601
+Heightened Def Con from 0.00956601 ++++++++++++to 0.00956601
+Total elapsed time: 0.207 seconds.
+

@@ -1,0 +1,17 @@
+* C:\Drive\FE_SR\schmitt_trigger\sch_trig_sr.asc
+XU1 0 N002 +V -V N003 LT1001
+R1 N002 N004 1k
+R2 N002 N005 1k
+R3 N003 N002 1k
+XU2 N001 0 +V -V V_out LT1001
+R4 N001 N003 1k
+R5 V_out N001 10k
+V1 -V 0 -10
+V2 +V 0 10
+V3 N004 0 PWL file=Ktime_pulse_pwl.txt
+V4 N005 0 PWL file=gaussian_noise_pwl.txt
+.tran 1s
+.options plotwinsize=0
+.lib LTC.lib
+.backanno
+.end

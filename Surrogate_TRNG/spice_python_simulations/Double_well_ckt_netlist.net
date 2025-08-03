@@ -1,0 +1,23 @@
+* C:\Drive\FE_SR\spice\doublewell_emulator\Double_well_ckt.asc
+V1 V+ 0 10
+V2 V- 0 -10
+R1 N001 Mod_sig 1Meg
+R2 N001 Noise 1Meg
+C1 Vout N001 0.1n
+B1 N003 0 V=v(Vout)*v(Vout)/10
+R3 Vmul1 N002 10Meg
+R4 N002 N003 1Meg
+B2 N006 0 V=v(Vmul1)*v(Vout)/10
+R5 N006 N005 1Meg
+R6 Vout N005 10Meg
+R7 N005 N004 10Meg
+R8 N001 N004 1Meg
+V3 Noise 0 PWL file=C:\Drive\FE_SR\kramers_time_spice\gaussian_noise_pwl.txt
+V4 Mod_sig 0 PWL file=C:\Drive\FE_SR\kramers_time_spice\TRAG_pulse_pwl.txt
+XU4 0 N001 V+ V- Vout LT1001
+XU1 0 N002 V+ V- Vmul1 LT1001
+XU2 0 N005 V+ V- N004 LT1001
+.tran 50m
+.lib LTC.lib
+.backanno
+.end

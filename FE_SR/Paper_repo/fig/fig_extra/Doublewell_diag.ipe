@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70000" creator="pdftoipe 2021/09/08">
+<ipestyle>
+<layout paper="595 842" frame="454.134 333.329" origin="48.258 159.787"/>
+<symbol name="bullet"><path matrix="0.04 0 0 0.04 0 0" fill="black">
+18 0 0 18 0 0 e</path></symbol>
+</ipestyle>
+<!-- Page: 1 1 -->
+<page>
+<path fill="1.000000 1.000000 1.000000" fillrule="wind">
+39.2968 41.685 m
+419.752 41.685 l
+419.752 318.885 l
+39.2968 318.885 l
+39.2968 41.685 l
+h
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+56.59 41.685 m
+56.59 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 52.829 27.092">0.3</text>
+<path fill="0.000000 0.000000 0.000000" fillrule="wind">
+45.5098 30.641 m
+51.77 30.641 l
+51.77 29.811 l
+45.5098 29.811 l
+45.5098 30.641 l
+h
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+114.235 41.685 m
+114.235 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 110.473 27.092">0.2</text>
+<path fill="0.000000 0.000000 0.000000" fillrule="wind">
+103.154 30.641 m
+109.414 30.641 l
+109.414 29.811 l
+103.154 29.811 l
+103.154 30.641 l
+h
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+171.88 41.685 m
+171.88 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 168.118 27.092">0.1</text>
+<path fill="0.000000 0.000000 0.000000" fillrule="wind">
+160.799 30.641 m
+167.059 30.641 l
+167.059 29.811 l
+160.799 29.811 l
+160.799 30.641 l
+h
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+229.524 41.685 m
+229.524 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 221.571 27.092">0.0</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+287.169 41.685 m
+287.169 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 279.216 27.092">0.1</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+344.814 41.685 m
+344.814 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 336.86 27.092">0.2</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+402.458 41.685 m
+402.458 38.185 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 394.505 27.092">0.3</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 69.194 m
+35.7968 69.194 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9417 65.397">1</text>
+<path fill="0.000000 0.000000 0.000000" fillrule="wind">
+18.6228 68.947 m
+24.8828 68.947 l
+24.8828 68.117 l
+18.6228 68.117 l
+18.6228 68.947 l
+h
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 110.501 m
+35.7968 110.501 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 106.704">0</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 151.807 m
+35.7968 151.807 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 148.011">1</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 193.114 m
+35.7968 193.114 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 189.317">2</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 234.421 m
+35.7968 234.421 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 230.624">3</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 275.728 m
+35.7968 275.728 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 271.931">4</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+39.2968 317.035 m
+35.7968 317.035 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 25.9378 313.238">5</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 40.1668 322.854">[U+d7]</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 49.4648 322.854">10</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="7.9701" valign="baseline" matrix="1 0 0 1 61.1708 327.193">6</text>
+<path stroke="1.000000 0.000000 0.000000" pen="1.5" join="1" cap="2">
+56.59 257.689 m
+59.706 240.478 l
+62.822 224.441 l
+65.938 209.531 l
+69.054 195.702 l
+72.17 182.907 l
+75.286 171.103 l
+78.402 160.244 l
+81.172 151.352 l
+83.941 143.143 l
+86.711 135.589 l
+89.481 128.661 l
+92.25 122.332 l
+95.02 116.573 l
+97.79 111.358 l
+100.56 106.661 l
+102.983 102.956 l
+105.407 99.609 l
+107.83 96.606 l
+110.254 93.929 l
+112.677 91.563 l
+115.101 89.492 l
+117.524 87.701 l
+119.948 86.174 l
+122.371 84.897 l
+124.795 83.856 l
+127.218 83.037 l
+129.988 82.354 l
+132.757 81.922 l
+135.527 81.723 l
+138.297 81.736 l
+141.413 81.984 l
+144.529 82.452 l
+147.991 83.203 l
+151.799 84.272 l
+155.954 85.68 l
+160.801 87.578 l
+166.686 90.15 l
+175.342 94.216 l
+187.459 99.884 l
+193.691 102.555 l
+199.231 104.691 l
+204.078 106.333 l
+208.578 107.642 l
+213.079 108.721 l
+217.234 109.499 l
+221.388 110.06 l
+225.543 110.395 l
+229.697 110.5 l
+233.852 110.375 l
+238.007 110.021 l
+242.161 109.443 l
+246.316 108.646 l
+250.816 107.549 l
+255.317 106.224 l
+260.164 104.565 l
+265.357 102.555 l
+271.243 100.039 l
+278.86 96.525 l
+295.824 88.608 l
+301.364 86.33 l
+305.864 84.715 l
+309.673 83.564 l
+313.135 82.725 l
+316.597 82.117 l
+319.713 81.793 l
+322.829 81.707 l
+325.599 81.851 l
+328.368 82.223 l
+331.138 82.841 l
+333.562 83.6 l
+335.985 84.577 l
+338.409 85.785 l
+340.832 87.238 l
+343.256 88.953 l
+345.679 90.942 l
+348.103 93.222 l
+350.526 95.809 l
+352.95 98.717 l
+355.373 101.963 l
+357.797 105.565 l
+360.22 109.538 l
+362.644 113.9 l
+365.413 119.383 l
+368.183 125.424 l
+370.953 132.049 l
+373.722 139.286 l
+376.492 147.164 l
+379.262 155.711 l
+382.032 164.956 l
+384.801 174.93 l
+387.571 185.663 l
+390.687 198.684 l
+393.803 212.749 l
+396.919 227.906 l
+400.035 244.199 l
+402.458 257.689 l
+402.458 257.689 l
+</path>
+<path stroke="0.000000 0.000000 1.000000" pen="1.5" dash="[5.55 2.4] 0" join="1">
+56.59 306.285 m
+60.053 286.262 l
+63.168 269.477 l
+66.284 253.814 l
+69.4 239.226 l
+72.516 225.668 l
+75.632 213.096 l
+78.748 201.464 l
+81.864 190.731 l
+84.98 180.854 l
+87.75 172.759 l
+90.519 165.281 l
+93.289 158.39 l
+96.059 152.061 l
+98.828 146.265 l
+101.598 140.977 l
+104.368 136.171 l
+107.138 131.822 l
+109.907 127.906 l
+112.677 124.399 l
+115.447 121.277 l
+118.216 118.517 l
+120.986 116.098 l
+123.756 113.997 l
+126.526 112.193 l
+129.295 110.665 l
+132.065 109.395 l
+134.835 108.361 l
+137.604 107.544 l
+140.72 106.864 l
+143.836 106.41 l
+147.298 106.141 l
+150.761 106.091 l
+154.569 106.249 l
+159.07 106.672 l
+164.263 107.402 l
+170.841 108.567 l
+189.883 112.091 l
+195.768 112.871 l
+200.962 113.33 l
+205.809 113.527 l
+210.309 113.484 l
+214.464 113.236 l
+218.619 112.775 l
+222.773 112.094 l
+226.928 111.185 l
+231.082 110.047 l
+235.237 108.677 l
+239.391 107.08 l
+243.892 105.099 l
+248.393 102.867 l
+253.24 100.198 l
+258.087 97.277 l
+263.626 93.666 l
+269.858 89.316 l
+277.475 83.704 l
+297.555 68.75 l
+302.749 65.23 l
+307.249 62.43 l
+311.404 60.109 l
+315.212 58.251 l
+318.674 56.823 l
+321.79 55.78 l
+324.56 55.065 l
+327.33 54.571 l
+330.099 54.317 l
+332.523 54.305 l
+334.946 54.506 l
+337.37 54.932 l
+339.793 55.597 l
+342.217 56.517 l
+344.64 57.706 l
+347.064 59.179 l
+349.487 60.951 l
+351.911 63.038 l
+354.334 65.457 l
+356.758 68.223 l
+359.181 71.354 l
+361.605 74.865 l
+364.028 78.776 l
+366.452 83.103 l
+368.875 87.865 l
+371.299 93.079 l
+374.069 99.617 l
+376.838 106.798 l
+379.608 114.652 l
+382.378 123.209 l
+385.147 132.498 l
+387.917 142.55 l
+390.687 153.396 l
+393.457 165.067 l
+396.573 179.224 l
+399.688 194.513 l
+402.458 209.092 l
+402.458 209.092 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1" cap="2">
+39.2968 41.685 m
+39.2968 318.885 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1" cap="2">
+419.752 41.685 m
+419.752 318.885 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1" cap="2">
+39.2968 41.685 m
+419.752 41.685 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1" cap="2">
+39.2968 318.885 m
+419.752 318.885 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.4" join="1">
+128.151 141.171 m
+271.312 141.171 l
+271.312 216.987 l
+128.151 216.987 l
+128.151 141.171 l
+h
+</path>
+<path stroke="0.000000 0.000000 1.000000" pen="1.5" dash="[5.55 2.4] 0" join="1">
+130.277 207.582 m
+131.611 203.837 l
+133.325 199.189 l
+134.883 195.24 l
+136.441 191.545 l
+137.999 188.098 l
+139.557 184.889 l
+141.115 181.912 l
+142.673 179.157 l
+144.231 176.617 l
+145.789 174.285 l
+147.191 172.357 l
+148.593 170.586 l
+149.995 168.967 l
+151.397 167.493 l
+152.8 166.16 l
+154.202 164.963 l
+155.604 163.896 l
+157.006 162.955 l
+158.408 162.134 l
+159.811 161.429 l
+161.213 160.834 l
+162.615 160.346 l
+164.017 159.958 l
+165.419 159.668 l
+166.977 159.453 l
+168.535 159.346 l
+170.093 159.34 l
+171.651 159.429 l
+173.365 159.631 l
+175.079 159.933 l
+176.948 160.368 l
+178.818 160.905 l
+180.843 161.591 l
+183.024 162.436 l
+185.361 163.449 l
+188.009 164.71 l
+190.97 166.235 l
+194.553 168.199 l
+200.006 171.318 l
+206.861 175.22 l
+210.6 177.231 l
+213.716 178.799 l
+216.52 180.103 l
+219.169 181.225 l
+221.662 182.17 l
+223.999 182.949 l
+226.18 183.574 l
+228.361 184.095 l
+230.386 184.478 l
+232.411 184.761 l
+234.437 184.94 l
+236.306 185.008 l
+238.176 184.979 l
+240.046 184.852 l
+241.915 184.624 l
+243.785 184.292 l
+245.654 183.853 l
+247.524 183.307 l
+249.393 182.651 l
+251.263 181.883 l
+253.132 181.002 l
+255.002 180.007 l
+256.871 178.898 l
+258.741 177.672 l
+260.611 176.33 l
+262.48 174.872 l
+264.506 173.16 l
+266.531 171.311 l
+268.556 169.325 l
+269.647 168.199 l
+269.647 168.199 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 93.17">F</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 101.161">ree</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 123.802">Energy</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 171.985">Densit</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 211.279">y</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 223.37">(</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 228.835">J</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 237.144">/m</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="0 1 -1 0 7.42 256.458">3</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="0 1 -1 0 12.626 261.937">)</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 167.01 4.587">P</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 176.18 4.587">olarization</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 245.633 4.587">(</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 251.095 4.587">C</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 261.79 4.587">/m</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 281.096 9.793">2</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 286.575 4.587">)</text>
+<path stroke="1.000000 0.000000 0.000000" pen="1.5" join="1" cap="2">
+335.742 289.513 m
+335.742 289.513 l
+319.742 289.513 l
+</path>
+<path stroke="0.000000 0.000000 1.000000" pen="1.5" dash="[5.55 2.4] 0" join="1">
+335.742 273.513 m
+335.742 273.513 l
+319.742 273.513 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 341.353 285.687">V</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 349.543 283.535">bias</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 371.67 285.687">=</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 386.584 285.687">0</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 393.604 285.687">V</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 341.353 269.687">V</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 349.543 267.535">bias</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 371.67 269.687">=</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 386.584 269.687">1</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 393.604 269.687">V</text>
+<path stroke="0.501999 0.501999 0.501999" pen="0.5" join="1">
+190.572 185.853 m
+296.262 185.853 l
+</path>
+<path stroke="0.501999 0.501999 0.501999" pen="0.5" join="1">
+168.262 157.878 m
+296.262 157.878 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 313.097 166.641">[U+2206]</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 324.803 166.641">F</text>
+<path stroke="0.501999 0.501999 0.501999" pen="0.5" join="1">
+302.482 186.169 m
+302.482 158.194 l
+</path>
+<path fill="0.501999 0.501999 0.501999">
+302.482 158.194 m
+304.147 163.194 l
+300.817 163.194 l
+302.482 158.194 l
+h
+</path>
+<path stroke="0.501999 0.501999 0.501999" pen="0.5" join="1">
+302.482 158.194 m
+304.147 163.194 l
+300.817 163.194 l
+302.482 158.194 l
+h
+</path>
+<path fill="0.501999 0.501999 0.501999">
+302.482 186.169 m
+300.817 181.169 l
+304.147 181.169 l
+302.482 186.169 l
+h
+</path>
+<path stroke="0.501999 0.501999 0.501999" pen="0.5" join="1">
+302.482 186.169 m
+300.817 181.169 l
+304.147 181.169 l
+302.482 186.169 l
+h
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 163.731 145.575">P</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 172.785 143.423">A</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="14.3462" valign="baseline" matrix="1 0 0 1 228.193 191.218">P</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 237.248 189.066">C</text>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.364 141.279 m
+128.364 140.018 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+160.415 141.309 m
+160.415 140.048 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+192.716 141.309 m
+192.716 140.048 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+225.017 141.309 m
+225.017 140.048 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+257.318 141.309 m
+257.318 140.048 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.253 148.28 m
+127.035 148.28 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.253 163.066 m
+127.035 163.066 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.253 177.852 m
+127.035 177.852 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.253 192.638 m
+127.035 192.638 l
+</path>
+<path stroke="0.000000 0.000000 0.000000" pen="0.8" join="1">
+128.253 207.424 m
+127.035 207.424 l
+</path>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 118.678 131.487">-</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 125.316 131.487">0.2</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 183.03 131.487">-</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 189.668 131.487">0.1</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 250.953 131.276">0.0</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 105.332 145.07">-</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 111.97 145.07">0.1</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 111.974 174.642">0.1</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="9.9626" valign="baseline" matrix="1 0 0 1 111.974 204.214">0.3</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 128.232 219.187">[U+d7]</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="11.9552" valign="baseline" matrix="1 0 0 1 137.53 219.187">10</text>
+<text stroke="0.000000 0.000000 0.000000" pos="0 0" transformations="affine" size="7.9701" valign="baseline" matrix="1 0 0 1 149.236 223.526">6</text>
+</page>
+</ipe>

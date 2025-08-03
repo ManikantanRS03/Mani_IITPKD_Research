@@ -1,0 +1,48 @@
+# remarks - IIT PKD sample D simulation
+# simulation id
+id = 3
+
+# sample parameters (all in SI unit)
+# coercive voltage
+Vc = 1.8
+
+#remenet polarization
+Pr = 0.17
+
+alpha = -53644796.01936324
+beta = 1031363375.8835006
+rho = 370
+
+#thickness of sample
+tf = 255e-9
+
+#Area of sample
+Af = 1e-7
+
+# Temperature
+T = 300
+
+#simulation parameters
+#sub threshold sine wave A (in volatge)
+A = (1,)
+
+#f
+f = (100,)
+
+#noise (sd range)
+sd = (0.0, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0, 1.1, 1.2000000000000002, 1.3, 1.4000000000000001, 1.5, 1.6, 1.7000000000000002, 1.8, 1.9000000000000001)
+
+#sampling period
+ts = 100e-9
+
+#number of cycles
+n = 30
+
+#no ensembles
+ens = 10
+
+#downsampling factor
+dsf = 1000
+
+#bandwidth
+bw = 1e5

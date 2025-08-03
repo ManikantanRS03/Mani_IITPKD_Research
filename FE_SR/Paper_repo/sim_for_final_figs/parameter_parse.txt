@@ -1,0 +1,48 @@
+# remarks - IISc sample simulation(for higher standard deviation)
+# simulation id
+id = 8
+
+# sample parameters (all in SI unit)
+# coercive voltage
+Vc = 2.1
+
+#remenet polarization
+Pr = 0.17
+
+alpha = -6.29e7
+beta = 1.09e9
+rho = 1367.16
+
+#thickness of sample
+tf = 255e-9
+
+#Area of sample
+Af = 1e-7
+
+# Temperature
+T = 300
+
+#simulation parameters
+#sub threshold sine wave A (in volatge)
+A = (1.575,)
+
+#f
+f = (75, 150 )
+
+#noise (sd range)
+sd = [0, 4, 50]
+
+#sampling period
+ts = 100e-9
+
+#number of cycles
+n = 100
+
+#no ensembles
+ens = 10
+
+#downsampling factor
+dsf = 1000
+
+#bandwidth
+bw = 1e4
