@@ -1,0 +1,12 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Drive\semester 7\BTP-1\work4_EL\finite_element_model\Solar_cell_subckt\solar_subckt_test.asc
+Start Time: Sat Mar  8 11:39:05 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node nc_01.  This node is used by r§0.1.
+WARNING: Less than two connections to node nc_02.  This node is used by r2.
+Total elapsed time: 0.041 seconds.
+

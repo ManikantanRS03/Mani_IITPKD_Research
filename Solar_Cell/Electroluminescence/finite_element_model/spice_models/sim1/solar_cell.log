@@ -1,0 +1,10 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Drive\semester 7\BTP-1\work4_EL\finite_element_model\spice_models\sim1\solar_cell.asc
+Start Time: Thu Feb 27 23:24:46 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 0.363 seconds.
+

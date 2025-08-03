@@ -1,0 +1,50 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Drive\semester 7\BTP-1\work4_EL\current_source\current_source.asc
+Start Time: Sat May 24 11:08:01 2025
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Limiting rise time of source v3 to 0.01
+Limiting fall time of source v3 to 0.01
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+vernier = 0.5
+Gmin = 3.6596e-08
+vernier = 0.666667
+vernier = 0.333333
+vernier = 0.166667
+Gmin = 2.18304e-08
+vernier = 0.222222
+vernier = 0.296296
+Gmin = 1.22277e-08
+vernier = 0.395061
+vernier = 0.526748
+Gmin = 4.95547e-09
+vernier = 0.702331
+Gmin = 1.18901e-09
+vernier = 0.936441
+vernier = 1
+Gmin = 1.46582e-10
+Gmin = 1.57391e-11
+Gmin = 1.68997e-12
+Gmin = 1.81459e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 3.903 seconds.
+

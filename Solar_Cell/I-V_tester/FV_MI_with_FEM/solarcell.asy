@@ -1,0 +1,27 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 17 64 -16 64
+LINE Normal 0 32 17 64
+LINE Normal -16 64 0 32
+LINE Normal 16 32 -16 32
+LINE Normal 0 -16 0 16
+LINE Normal 0 112 0 80
+LINE Normal 65 32 32 32
+LINE Normal 65 64 32 64
+LINE Normal 0 16 0 32
+LINE Normal 0 64 0 80
+RECTANGLE Normal 32 80 -32 16
+SYMATTR Prefix X
+SYMATTR SpiceModel solarcell
+PIN 0 -16 BOTTOM 8
+PINATTR PinName IF
+PINATTR SpiceOrder 1
+PIN 0 112 TOP 8
+PINATTR PinName IB
+PINATTR SpiceOrder 2
+PIN 64 32 LEFT 8
+PINATTR PinName VF
+PINATTR SpiceOrder 3
+PIN 64 64 LEFT 8
+PINATTR PinName VB
+PINATTR SpiceOrder 4

@@ -1,0 +1,289 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Drive\semester 7\BTP-1\work4_EL\IV_tester\FV_MI_with_FEM\IVTesterFullCircuit - FVMI.asc
+Start Time: Wed Mar 12 17:19:01 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node u3:t1_0.  This node is used by r:u3:f_f1_0.
+WARNING: Less than two connections to node u3:t1_10.  This node is used by r:u3:f_f1_9.
+WARNING: Less than two connections to node u3:t2_0.  This node is used by r:u3:f_f2_0.
+WARNING: Less than two connections to node u3:t2_10.  This node is used by r:u3:f_f2_9.
+WARNING: Less than two connections to node u3:t3_0.  This node is used by r:u3:f_f3_0.
+WARNING: Less than two connections to node u3:t3_10.  This node is used by r:u3:f_f3_9.
+WARNING: Less than two connections to node u3:t4_0.  This node is used by r:u3:f_f4_0.
+WARNING: Less than two connections to node u3:t4_10.  This node is used by r:u3:f_f4_9.
+WARNING: Less than two connections to node u3:t5_0.  This node is used by r:u3:f_f5_0.
+WARNING: Less than two connections to node u3:t5_10.  This node is used by r:u3:f_f5_9.
+WARNING: Less than two connections to node u3:t6_0.  This node is used by r:u3:f_f6_0.
+WARNING: Less than two connections to node u3:t6_10.  This node is used by r:u3:f_f6_9.
+WARNING: Less than two connections to node u3:t7_0.  This node is used by r:u3:f_f7_0.
+WARNING: Less than two connections to node u3:t7_10.  This node is used by r:u3:f_f7_9.
+WARNING: Less than two connections to node u3:t8_0.  This node is used by r:u3:f_f8_0.
+WARNING: Less than two connections to node u3:t8_10.  This node is used by r:u3:f_f8_9.
+WARNING: Less than two connections to node u3:t9_0.  This node is used by r:u3:f_f9_0.
+WARNING: Less than two connections to node u3:t9_10.  This node is used by r:u3:f_f9_9.
+WARNING: Less than two connections to node u3:t10_0.  This node is used by r:u3:f_f10_0.
+WARNING: Less than two connections to node u3:t10_10.  This node is used by r:u3:f_f10_9.
+WARNING: Less than two connections to node u3:t11_0.  This node is used by r:u3:f_f11_0.
+WARNING: Less than two connections to node u3:t11_10.  This node is used by r:u3:f_f11_9.
+WARNING: Less than two connections to node u3:t12_0.  This node is used by r:u3:f_f12_0.
+WARNING: Less than two connections to node u3:t12_10.  This node is used by r:u3:f_f12_9.
+WARNING: Less than two connections to node u3:t13_0.  This node is used by r:u3:f_f13_0.
+WARNING: Less than two connections to node u3:t13_10.  This node is used by r:u3:f_f13_9.
+WARNING: Less than two connections to node u3:t14_0.  This node is used by r:u3:f_f14_0.
+WARNING: Less than two connections to node u3:t14_10.  This node is used by r:u3:f_f14_9.
+WARNING: Less than two connections to node u3:t15_0.  This node is used by r:u3:f_f15_0.
+WARNING: Less than two connections to node u3:t15_10.  This node is used by r:u3:f_f15_9.
+WARNING: Less than two connections to node u3:t16_0.  This node is used by r:u3:f_f16_0.
+WARNING: Less than two connections to node u3:t16_10.  This node is used by r:u3:f_f16_9.
+WARNING: Less than two connections to node u3:t17_0.  This node is used by r:u3:f_f17_0.
+WARNING: Less than two connections to node u3:t17_10.  This node is used by r:u3:f_f17_9.
+WARNING: Less than two connections to node u3:t18_0.  This node is used by r:u3:f_f18_0.
+WARNING: Less than two connections to node u3:t18_10.  This node is used by r:u3:f_f18_9.
+WARNING: Less than two connections to node u3:t19_0.  This node is used by r:u3:f_f19_0.
+WARNING: Less than two connections to node u3:t19_10.  This node is used by r:u3:f_f19_9.
+WARNING: Less than two connections to node u3:t20_0.  This node is used by r:u3:f_f20_0.
+WARNING: Less than two connections to node u3:t20_10.  This node is used by r:u3:f_f20_9.
+WARNING: Less than two connections to node u3:t21_0.  This node is used by r:u3:f_f21_0.
+WARNING: Less than two connections to node u3:t21_10.  This node is used by r:u3:f_f21_9.
+WARNING: Less than two connections to node u3:t22_0.  This node is used by r:u3:f_f22_0.
+WARNING: Less than two connections to node u3:t22_10.  This node is used by r:u3:f_f22_9.
+WARNING: Less than two connections to node u3:t23_0.  This node is used by r:u3:f_f23_0.
+WARNING: Less than two connections to node u3:t23_10.  This node is used by r:u3:f_f23_9.
+WARNING: Less than two connections to node u3:t24_0.  This node is used by r:u3:f_f24_0.
+WARNING: Less than two connections to node u3:t24_10.  This node is used by r:u3:f_f24_9.
+WARNING: Less than two connections to node u3:t25_0.  This node is used by r:u3:f_f25_0.
+WARNING: Less than two connections to node u3:t25_10.  This node is used by r:u3:f_f25_9.
+WARNING: Less than two connections to node u3:t26_0.  This node is used by r:u3:f_f26_0.
+WARNING: Less than two connections to node u3:t26_10.  This node is used by r:u3:f_f26_9.
+WARNING: Less than two connections to node u3:t27_0.  This node is used by r:u3:f_f27_0.
+WARNING: Less than two connections to node u3:t27_10.  This node is used by r:u3:f_f27_9.
+WARNING: Less than two connections to node u3:t28_0.  This node is used by r:u3:f_f28_0.
+WARNING: Less than two connections to node u3:t28_10.  This node is used by r:u3:f_f28_9.
+WARNING: Less than two connections to node u3:t29_0.  This node is used by r:u3:f_f29_0.
+WARNING: Less than two connections to node u3:t29_10.  This node is used by r:u3:f_f29_9.
+WARNING: Less than two connections to node u3:t30_0.  This node is used by r:u3:f_f30_0.
+WARNING: Less than two connections to node u3:t30_10.  This node is used by r:u3:f_f30_9.
+WARNING: Less than two connections to node u3:t31_0.  This node is used by r:u3:f_f31_0.
+WARNING: Less than two connections to node u3:t31_10.  This node is used by r:u3:f_f31_9.
+WARNING: Less than two connections to node u3:t32_0.  This node is used by r:u3:f_f32_0.
+WARNING: Less than two connections to node u3:t32_10.  This node is used by r:u3:f_f32_9.
+WARNING: Less than two connections to node u3:t33_0.  This node is used by r:u3:f_f33_0.
+WARNING: Less than two connections to node u3:t33_10.  This node is used by r:u3:f_f33_9.
+WARNING: Less than two connections to node u3:t34_0.  This node is used by r:u3:f_f34_0.
+WARNING: Less than two connections to node u3:t34_10.  This node is used by r:u3:f_f34_9.
+WARNING: Less than two connections to node u3:t35_0.  This node is used by r:u3:f_f35_0.
+WARNING: Less than two connections to node u3:t35_10.  This node is used by r:u3:f_f35_9.
+WARNING: Less than two connections to node u3:t36_0.  This node is used by r:u3:f_f36_0.
+WARNING: Less than two connections to node u3:t36_10.  This node is used by r:u3:f_f36_9.
+WARNING: Less than two connections to node u3:t37_0.  This node is used by r:u3:f_f37_0.
+WARNING: Less than two connections to node u3:t37_10.  This node is used by r:u3:f_f37_9.
+WARNING: Less than two connections to node u3:t38_0.  This node is used by r:u3:f_f38_0.
+WARNING: Less than two connections to node u3:t38_10.  This node is used by r:u3:f_f38_9.
+WARNING: Less than two connections to node u3:t39_0.  This node is used by r:u3:f_f39_0.
+WARNING: Less than two connections to node u3:t39_10.  This node is used by r:u3:f_f39_9.
+WARNING: Less than two connections to node u3:t40_0.  This node is used by r:u3:f_f40_0.
+WARNING: Less than two connections to node u3:t40_10.  This node is used by r:u3:f_f40_9.
+WARNING: Less than two connections to node u3:t41_0.  This node is used by r:u3:f_f41_0.
+WARNING: Less than two connections to node u3:t41_10.  This node is used by r:u3:f_f41_9.
+WARNING: Less than two connections to node u3:t42_0.  This node is used by r:u3:f_f42_0.
+WARNING: Less than two connections to node u3:t42_10.  This node is used by r:u3:f_f42_9.
+WARNING: Less than two connections to node u3:t43_0.  This node is used by r:u3:f_f43_0.
+WARNING: Less than two connections to node u3:t43_10.  This node is used by r:u3:f_f43_9.
+WARNING: Less than two connections to node u3:t44_0.  This node is used by r:u3:f_f44_0.
+WARNING: Less than two connections to node u3:t44_10.  This node is used by r:u3:f_f44_9.
+WARNING: Less than two connections to node u3:t45_0.  This node is used by r:u3:f_f45_0.
+WARNING: Less than two connections to node u3:t45_10.  This node is used by r:u3:f_f45_9.
+WARNING: Less than two connections to node u3:t46_0.  This node is used by r:u3:f_f46_0.
+WARNING: Less than two connections to node u3:t46_10.  This node is used by r:u3:f_f46_9.
+WARNING: Less than two connections to node u3:t47_0.  This node is used by r:u3:f_f47_0.
+WARNING: Less than two connections to node u3:t47_10.  This node is used by r:u3:f_f47_9.
+WARNING: Less than two connections to node u3:t48_0.  This node is used by r:u3:f_f48_0.
+WARNING: Less than two connections to node u3:t48_10.  This node is used by r:u3:f_f48_9.
+WARNING: Less than two connections to node u3:t49_0.  This node is used by r:u3:f_f49_0.
+WARNING: Less than two connections to node u3:t49_10.  This node is used by r:u3:f_f49_9.
+WARNING: Less than two connections to node u3:t50_0.  This node is used by r:u3:f_f50_0.
+WARNING: Less than two connections to node u3:t50_10.  This node is used by r:u3:f_f50_9.
+WARNING: Less than two connections to node u3:t51_0.  This node is used by r:u3:f_f51_0.
+WARNING: Less than two connections to node u3:t51_10.  This node is used by r:u3:f_f51_9.
+WARNING: Less than two connections to node u3:t52_0.  This node is used by r:u3:f_f52_0.
+WARNING: Less than two connections to node u3:t52_10.  This node is used by r:u3:f_f52_9.
+WARNING: Less than two connections to node u3:t53_0.  This node is used by r:u3:f_f53_0.
+WARNING: Less than two connections to node u3:t53_10.  This node is used by r:u3:f_f53_9.
+WARNING: Less than two connections to node u3:t54_0.  This node is used by r:u3:f_f54_0.
+WARNING: Less than two connections to node u3:t54_10.  This node is used by r:u3:f_f54_9.
+WARNING: Less than two connections to node u3:t55_0.  This node is used by r:u3:f_f55_0.
+WARNING: Less than two connections to node u3:t55_10.  This node is used by r:u3:f_f55_9.
+WARNING: Less than two connections to node u3:t56_0.  This node is used by r:u3:f_f56_0.
+WARNING: Less than two connections to node u3:t56_10.  This node is used by r:u3:f_f56_9.
+WARNING: Less than two connections to node u3:t57_0.  This node is used by r:u3:f_f57_0.
+WARNING: Less than two connections to node u3:t57_10.  This node is used by r:u3:f_f57_9.
+WARNING: Less than two connections to node u3:t58_0.  This node is used by r:u3:f_f58_0.
+WARNING: Less than two connections to node u3:t58_10.  This node is used by r:u3:f_f58_9.
+WARNING: Less than two connections to node u3:t59_0.  This node is used by r:u3:f_f59_0.
+WARNING: Less than two connections to node u3:t59_10.  This node is used by r:u3:f_f59_9.
+WARNING: Less than two connections to node u3:t60_0.  This node is used by r:u3:f_f60_0.
+WARNING: Less than two connections to node u3:t60_10.  This node is used by r:u3:f_f60_9.
+WARNING: Less than two connections to node u3:t61_0.  This node is used by r:u3:f_f61_0.
+WARNING: Less than two connections to node u3:t61_10.  This node is used by r:u3:f_f61_9.
+WARNING: Less than two connections to node u3:t62_0.  This node is used by r:u3:f_f62_0.
+WARNING: Less than two connections to node u3:t62_10.  This node is used by r:u3:f_f62_9.
+WARNING: Less than two connections to node u3:t63_0.  This node is used by r:u3:f_f63_0.
+WARNING: Less than two connections to node u3:t63_10.  This node is used by r:u3:f_f63_9.
+WARNING: Less than two connections to node u3:t64_0.  This node is used by r:u3:f_f64_0.
+WARNING: Less than two connections to node u3:t64_10.  This node is used by r:u3:f_f64_9.
+WARNING: Less than two connections to node u3:t65_0.  This node is used by r:u3:f_f65_0.
+WARNING: Less than two connections to node u3:t65_10.  This node is used by r:u3:f_f65_9.
+WARNING: Less than two connections to node u3:t66_0.  This node is used by r:u3:f_f66_0.
+WARNING: Less than two connections to node u3:t66_10.  This node is used by r:u3:f_f66_9.
+WARNING: Less than two connections to node u3:t67_0.  This node is used by r:u3:f_f67_0.
+WARNING: Less than two connections to node u3:t67_10.  This node is used by r:u3:f_f67_9.
+WARNING: Less than two connections to node u3:t68_0.  This node is used by r:u3:f_f68_0.
+WARNING: Less than two connections to node u3:t68_10.  This node is used by r:u3:f_f68_9.
+WARNING: Less than two connections to node u3:t69_0.  This node is used by r:u3:f_f69_0.
+WARNING: Less than two connections to node u3:t69_10.  This node is used by r:u3:f_f69_9.
+WARNING: Less than two connections to node u3:t70_0.  This node is used by r:u3:f_f70_0.
+WARNING: Less than two connections to node u3:t70_10.  This node is used by r:u3:f_f70_9.
+WARNING: Less than two connections to node u3:t71_0.  This node is used by r:u3:f_f71_0.
+WARNING: Less than two connections to node u3:t71_10.  This node is used by r:u3:f_f71_9.
+WARNING: Less than two connections to node u3:t72_0.  This node is used by r:u3:f_f72_0.
+WARNING: Less than two connections to node u3:t72_10.  This node is used by r:u3:f_f72_9.
+WARNING: Less than two connections to node u3:t73_0.  This node is used by r:u3:f_f73_0.
+WARNING: Less than two connections to node u3:t73_10.  This node is used by r:u3:f_f73_9.
+WARNING: Less than two connections to node u3:t74_0.  This node is used by r:u3:f_f74_0.
+WARNING: Less than two connections to node u3:t74_10.  This node is used by r:u3:f_f74_9.
+WARNING: Less than two connections to node u3:t75_0.  This node is used by r:u3:f_f75_0.
+WARNING: Less than two connections to node u3:t75_10.  This node is used by r:u3:f_f75_9.
+WARNING: Less than two connections to node u3:t76_0.  This node is used by r:u3:f_f76_0.
+WARNING: Less than two connections to node u3:t76_10.  This node is used by r:u3:f_f76_9.
+WARNING: Less than two connections to node u3:t77_0.  This node is used by r:u3:f_f77_0.
+WARNING: Less than two connections to node u3:t77_10.  This node is used by r:u3:f_f77_9.
+WARNING: Less than two connections to node u3:t78_0.  This node is used by r:u3:f_f78_0.
+WARNING: Less than two connections to node u3:t78_10.  This node is used by r:u3:f_f78_9.
+WARNING: Less than two connections to node u3:t79_0.  This node is used by r:u3:f_f79_0.
+WARNING: Less than two connections to node u3:t79_10.  This node is used by r:u3:f_f79_9.
+WARNING: Less than two connections to node u3:t80_0.  This node is used by r:u3:f_f80_0.
+WARNING: Less than two connections to node u3:t80_10.  This node is used by r:u3:f_f80_9.
+WARNING: Less than two connections to node u3:t81_0.  This node is used by r:u3:f_f81_0.
+WARNING: Less than two connections to node u3:t81_10.  This node is used by r:u3:f_f81_9.
+WARNING: Less than two connections to node u3:t82_0.  This node is used by r:u3:f_f82_0.
+WARNING: Less than two connections to node u3:t82_10.  This node is used by r:u3:f_f82_9.
+WARNING: Less than two connections to node u3:t83_0.  This node is used by r:u3:f_f83_0.
+WARNING: Less than two connections to node u3:t83_10.  This node is used by r:u3:f_f83_9.
+WARNING: Less than two connections to node u3:t84_0.  This node is used by r:u3:f_f84_0.
+WARNING: Less than two connections to node u3:t84_10.  This node is used by r:u3:f_f84_9.
+WARNING: Less than two connections to node u3:t85_0.  This node is used by r:u3:f_f85_0.
+WARNING: Less than two connections to node u3:t85_10.  This node is used by r:u3:f_f85_9.
+WARNING: Less than two connections to node u3:t86_0.  This node is used by r:u3:f_f86_0.
+WARNING: Less than two connections to node u3:t86_10.  This node is used by r:u3:f_f86_9.
+WARNING: Less than two connections to node u3:t87_0.  This node is used by r:u3:f_f87_0.
+WARNING: Less than two connections to node u3:t87_10.  This node is used by r:u3:f_f87_9.
+WARNING: Less than two connections to node u3:t88_0.  This node is used by r:u3:f_f88_0.
+WARNING: Less than two connections to node u3:t88_10.  This node is used by r:u3:f_f88_9.
+WARNING: Less than two connections to node u3:t89_0.  This node is used by r:u3:f_f89_0.
+WARNING: Less than two connections to node u3:t89_10.  This node is used by r:u3:f_f89_9.
+WARNING: Less than two connections to node u3:t90_0.  This node is used by r:u3:f_f90_0.
+WARNING: Less than two connections to node u3:t90_10.  This node is used by r:u3:f_f90_9.
+WARNING: Less than two connections to node u3:t91_0.  This node is used by r:u3:f_f91_0.
+WARNING: Less than two connections to node u3:t91_10.  This node is used by r:u3:f_f91_9.
+WARNING: Less than two connections to node u3:t92_0.  This node is used by r:u3:f_f92_0.
+WARNING: Less than two connections to node u3:t92_10.  This node is used by r:u3:f_f92_9.
+WARNING: Less than two connections to node u3:t93_0.  This node is used by r:u3:f_f93_0.
+WARNING: Less than two connections to node u3:t93_10.  This node is used by r:u3:f_f93_9.
+WARNING: Less than two connections to node u3:t94_0.  This node is used by r:u3:f_f94_0.
+WARNING: Less than two connections to node u3:t94_10.  This node is used by r:u3:f_f94_9.
+WARNING: Less than two connections to node u3:t95_0.  This node is used by r:u3:f_f95_0.
+WARNING: Less than two connections to node u3:t95_10.  This node is used by r:u3:f_f95_9.
+WARNING: Less than two connections to node u3:t96_0.  This node is used by r:u3:f_f96_0.
+WARNING: Less than two connections to node u3:t96_10.  This node is used by r:u3:f_f96_9.
+WARNING: Less than two connections to node u3:t97_0.  This node is used by r:u3:f_f97_0.
+WARNING: Less than two connections to node u3:t97_10.  This node is used by r:u3:f_f97_9.
+WARNING: Less than two connections to node u3:t98_0.  This node is used by r:u3:f_f98_0.
+WARNING: Less than two connections to node u3:t98_10.  This node is used by r:u3:f_f98_9.
+WARNING: Less than two connections to node u3:t99_0.  This node is used by r:u3:f_f99_0.
+WARNING: Less than two connections to node u3:t99_10.  This node is used by r:u3:f_f99_9.
+WARNING: Less than two connections to node u3:t100_0.  This node is used by r:u3:f_f100_0.
+WARNING: Less than two connections to node u3:t100_10.  This node is used by r:u3:f_f100_9.
+WARNING: Less than two connections to node u3:t101_0.  This node is used by r:u3:f_f101_0.
+WARNING: Less than two connections to node u3:t101_10.  This node is used by r:u3:f_f101_9.
+WARNING: Less than two connections to node u3:t102_0.  This node is used by r:u3:f_f102_0.
+WARNING: Less than two connections to node u3:t102_10.  This node is used by r:u3:f_f102_9.
+WARNING: Less than two connections to node u3:t103_0.  This node is used by r:u3:f_f103_0.
+WARNING: Less than two connections to node u3:t103_10.  This node is used by r:u3:f_f103_9.
+WARNING: Less than two connections to node u3:t104_0.  This node is used by r:u3:f_f104_0.
+WARNING: Less than two connections to node u3:t104_10.  This node is used by r:u3:f_f104_9.
+WARNING: Less than two connections to node u3:t105_0.  This node is used by r:u3:f_f105_0.
+WARNING: Less than two connections to node u3:t105_10.  This node is used by r:u3:f_f105_9.
+WARNING: Less than two connections to node u3:t106_0.  This node is used by r:u3:f_f106_0.
+WARNING: Less than two connections to node u3:t106_10.  This node is used by r:u3:f_f106_9.
+WARNING: Less than two connections to node u3:t107_0.  This node is used by r:u3:f_f107_0.
+WARNING: Less than two connections to node u3:t107_10.  This node is used by r:u3:f_f107_9.
+WARNING: Less than two connections to node u3:t108_0.  This node is used by r:u3:f_f108_0.
+WARNING: Less than two connections to node u3:t108_10.  This node is used by r:u3:f_f108_9.
+WARNING: Less than two connections to node u3:t109_0.  This node is used by r:u3:f_f109_0.
+WARNING: Less than two connections to node u3:t109_10.  This node is used by r:u3:f_f109_9.
+WARNING: Less than two connections to node u3:t110_0.  This node is used by r:u3:f_f110_0.
+WARNING: Less than two connections to node u3:t110_10.  This node is used by r:u3:f_f110_9.
+WARNING: Less than two connections to node u3:t111_0.  This node is used by r:u3:f_f111_0.
+WARNING: Less than two connections to node u3:t111_10.  This node is used by r:u3:f_f111_9.
+WARNING: Less than two connections to node u3:t112_0.  This node is used by r:u3:f_f112_0.
+WARNING: Less than two connections to node u3:t112_10.  This node is used by r:u3:f_f112_9.
+WARNING: Less than two connections to node u3:t113_0.  This node is used by r:u3:f_f113_0.
+WARNING: Less than two connections to node u3:t113_10.  This node is used by r:u3:f_f113_9.
+WARNING: Less than two connections to node u3:t114_0.  This node is used by r:u3:f_f114_0.
+WARNING: Less than two connections to node u3:t114_10.  This node is used by r:u3:f_f114_9.
+WARNING: Less than two connections to node u3:t115_0.  This node is used by r:u3:f_f115_0.
+WARNING: Less than two connections to node u3:t115_10.  This node is used by r:u3:f_f115_9.
+WARNING: Less than two connections to node u3:t116_0.  This node is used by r:u3:f_f116_0.
+WARNING: Less than two connections to node u3:t116_10.  This node is used by r:u3:f_f116_9.
+WARNING: Less than two connections to node u3:t117_0.  This node is used by r:u3:f_f117_0.
+WARNING: Less than two connections to node u3:t117_10.  This node is used by r:u3:f_f117_9.
+WARNING: Less than two connections to node u3:t118_0.  This node is used by r:u3:f_f118_0.
+WARNING: Less than two connections to node u3:t118_10.  This node is used by r:u3:f_f118_9.
+WARNING: Less than two connections to node u3:t119_0.  This node is used by r:u3:f_f119_0.
+WARNING: Less than two connections to node u3:t119_10.  This node is used by r:u3:f_f119_9.
+WARNING: Less than two connections to node u3:t120_0.  This node is used by r:u3:f_f120_0.
+WARNING: Less than two connections to node u3:t120_10.  This node is used by r:u3:f_f120_9.
+WARNING: Less than two connections to node u3:t0_1.  This node is used by r:u3:f_b0_1.
+WARNING: Less than two connections to node u3:t121_1.  This node is used by r:u3:f_b120_1.
+WARNING: Less than two connections to node u3:t0_2.  This node is used by r:u3:f_b0_2.
+WARNING: Less than two connections to node u3:t121_2.  This node is used by r:u3:f_b120_2.
+WARNING: Less than two connections to node u3:t0_3.  This node is used by r:u3:f_b0_3.
+WARNING: Less than two connections to node u3:t121_3.  This node is used by r:u3:f_b120_3.
+WARNING: Less than two connections to node u3:t0_4.  This node is used by r:u3:f_b0_4.
+WARNING: Less than two connections to node u3:t121_4.  This node is used by r:u3:f_b120_4.
+WARNING: Less than two connections to node u3:t0_5.  This node is used by r:u3:f_b0_5.
+WARNING: Less than two connections to node u3:t121_5.  This node is used by r:u3:f_b120_5.
+WARNING: Less than two connections to node u3:t0_6.  This node is used by r:u3:f_b0_6.
+WARNING: Less than two connections to node u3:t121_6.  This node is used by r:u3:f_b120_6.
+WARNING: Less than two connections to node u3:t0_7.  This node is used by r:u3:f_b0_7.
+WARNING: Less than two connections to node u3:t121_7.  This node is used by r:u3:f_b120_7.
+WARNING: Less than two connections to node u3:t0_8.  This node is used by r:u3:f_b0_8.
+WARNING: Less than two connections to node u3:t121_8.  This node is used by r:u3:f_b120_8.
+WARNING: Less than two connections to node u3:t0_9.  This node is used by r:u3:f_b0_9.
+WARNING: Less than two connections to node u3:t121_9.  This node is used by r:u3:f_b120_9.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 19.729 seconds.
+

@@ -1,0 +1,1 @@
+Image capturing code (automation) using the edmunt Alvium 1800 U-501 NIRm camara.
