@@ -1,0 +1,66 @@
+% Initialization
+J  = 1;
+numSpinsPerDim = 2^3;
+probSpinUp = 0.5;
+spin = sign(probSpinUp - rand(numSpinsPerDim, numSpinsPerDim));
+kT = 1;
+
+captureInterval = 10;     % Capture a frame every numel(spin) iterations
+% Create an animation file
+outputFile = 'spin_animation.gif';
+
+
+% Metropolis algorithm
+numIters = 2^7 * numel(spin);
+for iter = 1 : numIters
+    % Pick a random spin
+    linearIndex = randi(numel(spin));
+    [row, col]  = ind2sub(size(spin), linearIndex);
+    
+    % Find its nearest neighbors
+    above = mod(row - 1 - 1, size(spin,1)) + 1;
+    below = mod(row + 1 - 1, size(spin,1)) + 1;
+    left  = mod(col - 1 - 1, size(spin,2)) + 1;
+    right = mod(col + 1 - 1, size(spin,2)) + 1;
+    
+    neighbors = [      spin(above,col);
+        spin(row,left);                spin(row,right);
+                       spin(below,col)];
+    
+    % Calculate energy change if this spin is flipped
+    dE = 2 * J * spin(row, col) * sum(neighbors);
+    
+    % Boltzmann probability of flipping
+    prob = exp(-dE / kT);
+    
+    % Spin flip condition
+    if dE <= 0 || rand() <= prob
+        spin(row, col) = - spin(row, col);
+    end
+
+    % Capture a frame every captureInterval iterations
+    if mod(iteration, captureInterval) == 0
+        % Convert spins to RGB image (for visualization purposes)
+        image = repmat((spins + 1) * 128, [1, 1, 3]);
+        
+        % Save image as a frame in the animation file
+        if iteration == captureInterval
+            imwrite(image, outputFile, 'gif', 'LoopCount', Inf, 'DelayTime', 0.1);
+        else
+            imwrite(image, outputFile, 'gif', 'WriteMode', 'append', 'DelayTime', 0.1);
+        end
+    end
+end
+
+% The mean energy
+sumOfNeighbors = ...
+      circshift(spin, [ 0  1]) ...
+    + circshift(spin, [ 0 -1]) ...
+    + circshift(spin, [ 1  0]) ...
+    + circshift(spin, [-1  0]);
+Em = - J * spin .* sumOfNeighbors;
+E  = 0.5 * sum(Em(:));
+Emean = E / numel(spin);
+
+% The mean magnetization
+Mmean = mean(spin(:));

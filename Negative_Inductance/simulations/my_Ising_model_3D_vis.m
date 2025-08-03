@@ -1,0 +1,72 @@
+% Initialization
+J = 1;
+numSpinsPerDim = 2^5;
+probSpinUp = 0.5;
+spin = sign(probSpinUp - rand(numSpinsPerDim, numSpinsPerDim, numSpinsPerDim)); %create a spin array
+kT = 1;
+
+% Create a folder to save the frames
+frameFolder = 'spin_frames';
+if ~exist(frameFolder, 'dir')
+    mkdir(frameFolder); %make directory of the file
+end
+
+%Plotting the lattice
+figure;
+clf;
+[x, y, z] = meshgrid(1:numSpinsPerDim, 1:numSpinsPerDim, 1:numSpinsPerDim);
+h = scatter3(x(:), y(:), z(:), 100, spin(:),'filled');  % Use different colors for different spins
+axis equal;
+grid on;
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+title('Spin Lattice');
+
+
+% Metropolis algorithm
+numIters = 2^7 * numel(spin);      % Run the metropolis alg 2^7 times
+captureInterval = numel(spin);     % Capture a frame every numel(spin) iterations
+
+for iter = 1:numIters
+    % Pick a random spin
+    linearIndex = randi(numel(spin));   %select a spin randomly
+    [row, col, z] = ind2sub(size(spin), linearIndex);   %convert the number to equalent position
+
+    % Find its nearest neighbors
+    above = mod(row - 1 - 1, size(spin, 1)) + 1;
+    below = mod(row + 1 - 1, size(spin, 1)) + 1;
+    left = mod(col - 1 - 1, size(spin, 2)) + 1;
+    right = mod(col + 1 - 1, size(spin, 2)) + 1;
+    front = mod(z - 1 - 1, size(spin, 3)) + 1;
+    back = mod(z + 1 - 1, size(spin, 3)) + 1;
+
+    neighbors = [spin(above, col, z);
+                 spin(below, col, z);
+                 spin(row, left, z);
+                 spin(row, right, z);
+                 spin(row, col, front);
+                 spin(row, col, back)];
+
+    % Calculate energy change if this spin is flipped
+    dE = 2 * J * spin(row, col, z) .* sum(neighbors);
+
+    % Boltzmann probability of flipping
+    prob = exp(-dE / kT);
+
+    % Spin flip condition
+    if dE <= 0 || rand() <= prob
+        spin(row, col, z) = -spin(row, col, z);
+    end
+
+    % Update the plot every captureInterval iterations
+    if mod(iter, captureInterval) == 0
+        set(h, 'CData', spin(:));  % Update the color data
+        % Save the frame as a PNG image
+        filename = fullfile(frameFolder, sprintf('frame_%04d.png', iter));
+        saveas(gcf, filename);
+    end
+end
+
+% Convert the frames to a GIF animation using external software or libraries
+% (such as ImageMagick or FFmpeg) outside of MATLAB.

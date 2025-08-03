@@ -1,0 +1,73 @@
+% Initialization
+J = 1;
+numSpinsPerDim = 2^5;
+probSpinUp = 0.5;
+spin = sign(probSpinUp - rand(numSpinsPerDim, numSpinsPerDim, numSpinsPerDim));
+kT = 1;
+
+captureInterval = numel(spin);     % Capture a frame every numel(spin) iterations
+
+% Create animation files for X, Y, and Z projections
+outputFileX = 'spin_animation_X.gif';
+outputFileY = 'spin_animation_Y.gif';
+outputFileZ = 'spin_animation_Z.gif';
+
+% Metropolis algorithm
+numIters = 2^7 * numel(spin);
+for iter = 1:numIters
+    % Pick a random spin
+    linearIndex = randi(numel(spin));
+    [row, col, z] = ind2sub(size(spin), linearIndex);
+
+    % Find its nearest neighbors
+    above = mod(row - 1 - 1, size(spin, 1)) + 1;
+    below = mod(row + 1 - 1, size(spin, 1)) + 1;
+    left = mod(col - 1 - 1, size(spin, 2)) + 1;
+    right = mod(col + 1 - 1, size(spin, 2)) + 1;
+    front = mod(z - 1 - 1, size(spin, 3)) + 1;
+    back = mod(z + 1 - 1, size(spin, 3)) + 1;
+
+    neighbors = [spin(above, col, z);
+                 spin(below, col, z);
+                 spin(row, left, z);
+                 spin(row, right, z);
+                 spin(row, col, front);
+                 spin(row, col, back)];
+
+    % Calculate energy change if this spin is flipped
+    dE = 2 * J * spin(row, col, z) * sum(neighbors);
+
+    % Boltzmann probability of flipping
+    prob = exp(-dE / kT);
+
+    % Spin flip condition
+    if dE <= 0 || rand() <= prob
+        spin(row, col, z) = -spin(row, col, z);
+    end
+
+    % Capture a frame every captureInterval iterations
+    if mod(iter, captureInterval) == 0
+        display(iter / captureInterval);
+
+        % Convert spins to RGB images (for visualization purposes)
+        imageX = repmat((squeeze(spin(row, :, :)) + 1) * 128, [1, 1, 3]);
+        imageY = repmat((squeeze(spin(:, col, :)) + 1) * 128, [1, 1, 3]);
+        imageZ = repmat((squeeze(spin(:, :, z)) + 1) * 128, [1, 1, 3]);
+
+        % Convert RGB images to indexed images
+        [indexedImageX, colormapX] = rgb2ind(imageX, 256);
+        [indexedImageY, colormapY] = rgb2ind(imageY, 256);
+        [indexedImageZ, colormapZ] = rgb2ind(imageZ, 256);
+
+        % Save indexed images as frames in the animation files
+        if iter == captureInterval
+            imwrite(indexedImageX, colormapX, outputFileX, 'gif', 'LoopCount', Inf, 'DelayTime', 0.1);
+            imwrite(indexedImageY, colormapY, outputFileY, 'gif', 'LoopCount', Inf, 'DelayTime', 0.1);
+            imwrite(indexedImageZ, colormapZ, outputFileZ, 'gif', 'LoopCount', Inf, 'DelayTime', 0.1);
+        else
+            imwrite(indexedImageX, colormapX, outputFileX, 'gif', 'WriteMode', 'append', 'DelayTime', 0.1);
+            imwrite(indexedImageY, colormapY, outputFileY, 'gif', 'WriteMode', 'append', 'DelayTime', 0.1);
+            imwrite(indexedImageZ, colormapZ, outputFileZ, 'gif', 'WriteMode', 'append', 'DelayTime', 0.1);
+        end
+    end
+end
